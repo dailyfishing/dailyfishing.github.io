@@ -13,7 +13,7 @@ permalink: /:year/:month/:day/:title:output_ext
 plugins: [jekyll-paginate, jekyll-feed, jekyll-seo-tag, jekyll-sitemap]
 
 #Pagination
-paginate: 3 # 每页文章数
+paginate: 5 # 每页文章数
 paginate_path: "/page:num/"
 
 #SEO
@@ -26,7 +26,9 @@ facebook:
   admins: # Facebook user ID for domain insights linked to a personal account
 logo: /assets/img/logo.jpg # 博客logo，此处引用了路径为“/assets/img/logo.jpg”的图片，可修改
 social:
-  links: # 其他链接
+  links: https://archiveofourown.org/users/dailyfish
+  
+  # 其他链接
     - https://www.google.com
     - https://www.github.com/cybergipsy2020
 
